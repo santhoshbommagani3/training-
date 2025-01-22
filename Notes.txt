@@ -1,0 +1,193 @@
+Full Stack Web Development:
+end-end development of an application
+
+Any application contains
+1. Front End
+2. Back End
+3. Databases
+
+Front-end:
+is User Interface where the users can see and interact with the application
+called as Client-side
+--it is used to create the websites
+--it is used to create structure content on the websites, designs, layouts
+
+1. Html
+2. CSS
+3. JavaScript
+4. React JS
+
+*Html* - Hyper Text Markup Language
+Hyper Text: A Text containing Multiple links(hyper links) <a> </a>
+Markup Language: Specific set of tags by using these we can create Structure content
+Structure content -- is used to create structure content on websites
+--Images, paragraps, headings, links
+
+Head tag is the invisible part to the users
+Only body tag will be visible to end users
+
+Html is a markup language, not a programming and scripting
+
+
+*CSS* - Cascading Style Sheets
+For designing we use css
+To make an application look beautiful
+
+
+*JavaScript*
+Validation is given by JS
+Functionalized language
+is a high level, loosely or weekly typed, lightweight and scripting language.
+Scripting languages:- the source code directly read by the interpreter.
+Applications:- webpages, mobiles apps, smartwatch, gaming, server side app, database(MongoDB is JS)
+variables:- container or memory blocks to store the values
+3 Variable in JS
+-var:- can be re-initialized
+	can be re-declared
+-let:- can be re-initialized
+	can not be re-declared
+-const:- can not be re-initialized and re-directed.
+
+Ex: var a=10;/ let b=20;/ const c=30; (a,b,c are identifiers)
+	console.log(a,b,c)
+
+Heap area:- memory where all non-static members will be there
+
+console.log():- this output method is used to check the output in the developer tool/ debugging tool.
+
+document.writeln():- this method is used to print the output on the UI.
+
+
+*Datatypes in Java*
+used to mention what kind of data used in the variable.
+Types:-
+1. Primitive datatype:- it can store single values
+			-they are default
+			-String, number, Boolean, null, undefined, Symbol & Bigint
+2. Non-primitive datatype:- it can store multiple values
+			-they are user defined
+			-functions, arrays, objects
+string:- sequence of characters enclosed within double quotes / single quotes / backticks(``).
+number:- it sotres all the number data types such as integer , float values etc...
+boolean:- true/false .
+undefined:- any variable decalred but not intitialized.
+null:- empty of object.
+
+
+*Operators*
+special type of symbols used to perform some operations on operands.
+Ex:- 2(operand1)*(symbol)3(operand2)
+3 types:- unary, binary, ternary
+
+1. Arithmetic operators:-
+	+,-,*,
+2. Assignment operator:-
+	=,+=,-=,/=,%=,*=
+3. Relational operators:- always return Boolean values
+	==,===,!=,!==(strictly not equals),>,<,>=,<=
+	double equals to is
+	triple equals to is
+4. Logical operators:-
+	AND(&&),OR(||),NOT(!)
+
+
+*Decision making statements*
+	if - we can give only one condition 
+	if-else, else if ladder, switch, ternary condition
+
+
+*Looping statements*
+used to iterate the block of code multiple times.
+1. for - used when iteration count is known, for(initialization; condition; increment/decrement)
+	min iteration count is "0".
+2. while - while(condtion){
+		//statements
+		updation
+	}
+	min iteration count is "0".
+3. do while - do{
+		//statements
+		}while(condition)
+	min iteration count is "1".
+**what are the entry controlled loop and exit controlled loops**
+for and while are entry controlled - condtion is true block will execute
+do while is exit controlled.
+
+
+*Functions*
+are block of code used to perform  specific task when it is needed.
+can be reuse for n number of times.
+Syntax:- function functoin_name(optional parameters) //function declaration
+		{
+			//statements
+		}
+		function_name(arguments); //function calling
+note:- without calling the function, the function body will never execute.
+Types:-
+1.named function:- function which is having a name to declare and to invoke
+2.anonymous function:- function which doesnot have a name for declare.
+			- cannot be executed independently.
+3.function expression:- function 
+4.immediate invoke function expression(IIFE):- once the function is created
+					-iife can be executed for only one time.
+5.arrow function:-  to concise the syntax of normal function.
+		syntax:- ()=>{};
+		-it is also similar to anonymous function. 
+6.higher order function:- function which accepts another function as value/argument to its parameter.
+7.callback function:- function which is passed as a value/arguments to another function.
+
+closure:- is a memory created when functions bundled together/nested each other by giving accessibility to the innermost function to access the variables of outermost function.
+
+// default value of int is zero.
+
+return statement:-
+will return either expression or variables to future use.
+
+implicit return:- return
+explicit return:-
+
+
+20/01/25
+*JSON* - JavaScript Object Notation
+Methods:-
+1. JSON.stringify() - convert javascript object to json object
+2. JSON.parse() - convert json object into js object
+
+
+*web storages*
+can store the data inside the browser.
+upto 10MB of data can be stored.
+
+1. Local storage :- a permanent data storage.
+			can store upto 10MB of data.
+			methods:-
+			1.localStorage.setItem("key", "value")
+			2.localStorage.getItem("key")
+			3.localStorage.removeItem()
+			4.localStorage.
+2. session storage:- temporary data storage.
+			can store upto 5MB of data.
+
+**Note:- JavaScript is a synchronous (single threaded language)
+
+// fontawesome icons website
+// fontawesome cdn links
+
+Asynchronous - making javascript to work multiple work simultaneously.
+
+1.setTimeout() - a web api used to perform  asynchronous operation in certain timeout.
+		syntax - setTimeout(callbackfn, timeout);
+2.setInterval() - a web api used to perform async operations for
+		syntax - setInterval(callbackfn, timeinterval);
+3.Promise (es6 feature) - an object which represents eventual completion or failures of asynchronous
+		states of promise:-
+		1.pending - still ongoing
+		2.fulfilled - successfully completed
+		3.rejected - failures
+		syntax - let p=new Promise((resolve, reject)=>{});
+		
+		for handling the promise we have a instance methods,
+		1.then() - used to handle successful data
+		2.catch() - 
+		3.finally() - will execute 
+4.Async & await
