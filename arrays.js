@@ -1,5 +1,5 @@
 let userDetails={
-    name:"Ektha",
+    name:"Santhosh",
     age:19,
     city:"Hyderabad"
 }
